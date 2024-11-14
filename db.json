@@ -18,10 +18,10 @@
         }
       },
       "user": {
-        "name": "Mariossssssssffff",
-        "surname": "Verdiddd",
+        "name": "Mario",
+        "surname": "Verdi",
         "email": "marioverdi@hotmail.it",
-        "birthDay": "Fri, 02 Feb 1996 03:04:05 GMT"
+        "birthDay": "2024-09-11T22:00:00.000Z"
       },
       "id": "7bdd"
     },
@@ -31,32 +31,7 @@
         "name": "Giulio",
         "surname": "Rossi",
         "email": "giuliorossi@libero.it",
-        "birthDay": "Fri, 02 Feb 1996 03:04:05 GMT"
-      }
-    },
-    {
-      "id": "0854",
-      "headers": {
-        "normalizedNames": {},
-        "lazyUpdate": [
-          {
-            "name": "Content-Type",
-            "value": "application/json; charset=utf-8",
-            "op": "s"
-          }
-        ],
-        "headers": {},
-        "lazyInit": {
-          "normalizedNames": {},
-          "lazyUpdate": null,
-          "headers": {}
-        }
-      },
-      "user": {
-        "name": "wsd",
-        "surname": "wsdwsdw",
-        "email": "dwdw",
-        "birthDay": "2024-11-20T23:00:00.000Z"
+        "birthDay": "2024-09-11T22:00:00.000Z"
       }
     }
   ]
