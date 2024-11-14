@@ -1,25 +1,6 @@
 {
   "user": [
     {
-      "user": {
-        "name": "Mariossssssss",
-        "surname": "Verdiddd",
-        "email": "marioverdi@hotmail.it",
-        "birthDay": "13/08/1998"
-      },
-      "id": "7bdd"
-    },
-    {
-      "id": "72dd",
-      "user": {
-        "name": "Giulio",
-        "surname": "Rossi",
-        "email": "giuliorossi@libero.it",
-        "birthDay": "13/08/1998"
-      }
-    },
-    {
-      "id": "a1c6",
       "headers": {
         "normalizedNames": {},
         "lazyUpdate": [
@@ -37,10 +18,45 @@
         }
       },
       "user": {
-        "name": "ddd",
-        "surname": "ddd",
-        "email": "ddd",
-        "birthDay": "dd"
+        "name": "Mariossssssssffff",
+        "surname": "Verdiddd",
+        "email": "marioverdi@hotmail.it",
+        "birthDay": "Fri, 02 Feb 1996 03:04:05 GMT"
+      },
+      "id": "7bdd"
+    },
+    {
+      "id": "72dd",
+      "user": {
+        "name": "Giulio",
+        "surname": "Rossi",
+        "email": "giuliorossi@libero.it",
+        "birthDay": "Fri, 02 Feb 1996 03:04:05 GMT"
+      }
+    },
+    {
+      "id": "0854",
+      "headers": {
+        "normalizedNames": {},
+        "lazyUpdate": [
+          {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8",
+            "op": "s"
+          }
+        ],
+        "headers": {},
+        "lazyInit": {
+          "normalizedNames": {},
+          "lazyUpdate": null,
+          "headers": {}
+        }
+      },
+      "user": {
+        "name": "wsd",
+        "surname": "wsdwsdw",
+        "email": "dwdw",
+        "birthDay": "2024-11-20T23:00:00.000Z"
       }
     }
   ]

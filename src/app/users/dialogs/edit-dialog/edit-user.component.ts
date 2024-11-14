@@ -29,7 +29,7 @@ export class EditUserDialog implements OnInit {
     this.form = this._formbuilder.group({
       name: [null, Validators.required],
       surname: [null, Validators.required],
-      email: [null, Validators.required],
+      email: [null, Validators.email],
       birthDay: [null, Validators.required]
     });
   }
@@ -51,8 +51,11 @@ export class EditUserDialog implements OnInit {
   }
 
   updateDataUser(){
-    const formData = this.form.value;  
-    this.dialogRef.close(formData)
+    const formData = this.form.value;
+    
+    if(this.form.valid){
+      this.dialogRef.close(formData)
+    }  
   }
 
   closeDialog(){

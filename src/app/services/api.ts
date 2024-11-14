@@ -19,7 +19,7 @@ export class userService {
 
     let url = this.BASE_PATH
 
-    return this.http.get<any[]>((url), {
+    return this.http.get<UserDto[]>((url), {
         headers: headers,
     })
 
@@ -30,32 +30,32 @@ export class userService {
 
     let url = this.BASE_PATH
 
-    return this.http.post<any>((url),{
+    return this.http.post<UserDto>((url),{
         headers: headers,
         user,
     })
 
   }
-  updateUser = (id: string, user: any) : Observable<UserDto[]> => {
+  updateUser = (id: string, user: any) : Observable<UserDto> => {
     const headers = new HttpHeaders().set('Content-Type', 'application/json; charset=utf-8');
 
     // let params = new HttpParams().set('userId', id);
 
     let url = this.BASE_PATH
 
-    return this.http.put<any>(`${url}/${id}`, {
+    return this.http.put<UserDto>(`${url}/${id}`, {
         headers: headers,
         user
     })
 
   }
 
-  deleteUser = (id: string) : Observable<UserDto[]> => {
+  deleteUser = (id: string) : Observable<string> => {
     const headers = new HttpHeaders().set('Content-Type', 'application/json; charset=utf-8');
 
     let url = this.BASE_PATH
 
-    return this.http.delete<any>(`${url}/${id}`, {
+    return this.http.delete<string>(`${url}/${id}`, {
         headers: headers,
     })
   }

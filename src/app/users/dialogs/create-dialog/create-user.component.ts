@@ -39,7 +39,9 @@ export class CreateUserDialog implements OnInit {
   createUser(){
     const requestBody = this.form.getRawValue()
     
-    this.dialogRef.close(requestBody)
+    if(this.form.valid){
+      this.dialogRef.close(requestBody)
+    }
 
   }
 

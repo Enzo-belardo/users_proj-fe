@@ -43,6 +43,7 @@ export class UsersComponent implements OnInit {
         this.userService.createNewUser(res).subscribe(res=> {
           if(res){
             this.getUsers()
+            
             this.snackBar.open('Utente creato con successo', '', {duration: 2000})
 
           }

@@ -17,6 +17,8 @@ import { MatInputModule} from '@angular/material/input'
 import { DeleteUserDialog } from './users/dialogs/delete-dialog/delete-user.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDatepickerModule, } from '@angular/material/datepicker'
+import { MatNativeDateModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatSnackBarModule,
     ReactiveFormsModule,
     MatButtonModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     MatInputModule
     
   ],
