@@ -1,0 +1,14 @@
+<div class="example-form">
+    <div class="mb-5">
+        <p class="text-2xl">Sei sicuro di eliminare questo utente ?</p>
+    </div>
+  
+    <div class="w-full flex justify-end mt-7">
+        <div>
+            <button class="bg-red-600 text-white" (click)="closeDialog()" mat-button>Anulla</button>
+        </div>
+        <div class="ml-5">
+            <button class="bg-green-500 text-white" (click)="deleteUser()" mat-button>Salva</button>
+        </div>
+    </div>
+</div>
